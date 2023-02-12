@@ -30,7 +30,10 @@
  
 # API сервиса конвертации валют.
 1.  Запрос списка курсов ЦБ определенной страны.
- Реализован через метод GET, в URL запроса указывается двухбуквенный код страны, например ```http://localhost:8080/listcurrency/th``` или ```http://localhost:8080/listcurrency/ru```
+ Реализован через метод GET, в URL запроса указывается двухбуквенный код страны, например
+ ```http://localhost:8080/listcurrency/th``` 
+ или
+ ```http://localhost:8080/listcurrency/ru```
   
  Пример выполнения ```curl -X GET http://localhost:8080/listcurrency/ru```
  
